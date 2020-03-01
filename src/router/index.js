@@ -2,25 +2,25 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Main from "../views/Main.vue";
 
-import CategoryEdit from "../views/CategoryEdit.vue";
-import CategoryList from "../views/CategoryList.vue";
+const CategoryEdit = ()=> import ("../views/CategoryEdit.vue");
+const CategoryList = ()=> import ( "../views/CategoryList.vue");
 
-import ItemEdit from "../views/ItemEdit.vue";
-import ItemList from "../views/ItemList.vue";
+const ItemEdit =()=>import ( "../views/ItemEdit.vue");
+const ItemList = ()=>import ( "../views/ItemList.vue");
 
-import HeroEdit from "../views/HeroEdit.vue";
-import HeroList from "../views/HeroList.vue";
+const HeroEdit =()=>import ("../views/HeroEdit.vue");
+const HeroList =()=> import ("../views/HeroList.vue");
 
-import ActicleEdit from "../views/ActicleEdit.vue";
-import ActicleList from "../views/ActicleList.vue";
+const ActicleEdit = ()=>import ("../views/ActicleEdit.vue");
+const ActicleList =()=>import ("../views/ActicleList.vue");
 
-import AdEdit from "../views/AdEdit.vue";
-import AdList from "../views/AdList.vue";
+const AdEdit =()=>import ("../views/AdEdit.vue");
+const AdList =()=>import ("../views/AdList.vue");
 
-import AdminUserEdit from "../views/AdminUserEdit.vue";
-import AdminUserList from "../views/AdminUserList.vue";
+const AdminUserEdit =()=>import ("../views/AdminUserEdit.vue");
+const AdminUserList =()=> import ("../views/AdminUserList.vue");
 
-import Login from "../views/Login.vue";
+const Login = ()=> import ("../views/Login.vue");
 Vue.use(VueRouter);
 
 const routes = [
