@@ -36,7 +36,6 @@ const routes = [
     path: "/",
     name: "main",
     component: Main,
-    redirect: "items/list",
     children: [
       {
         path: "categories/create",
